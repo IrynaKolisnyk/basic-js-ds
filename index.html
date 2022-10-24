@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>puzzle</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="timer">
+		<time>time</time>
+		<label for="moves"><input id="moves" name="moves">moves</label>
+	</div>
+	<div class="menu">
+		<input type="button" onclick="init();" id="addButton" value="Shuffle and start">
+		<input type="button" id="addButton" value="Stop">
+		<input type="button" id="addButton" value="Save">
+		<input type="button" onclick="event()" id="addButton" value="Result">
+	</div>
+	<canvas id="puzzle"></canvas>
+	<script>init();</script>
+</body>
+
+</html>

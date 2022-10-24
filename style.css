@@ -1,0 +1,49 @@
+html {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+#puzzle {
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.timer {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+#addButton {
+	background: greenyellow;
+	color: green;
+	border:1px green;
+	border-radius: 5px;
+}
+
+time {
+	color:darkgreen;
+	font-weight: bolder;
+}
+
+label {
+	color: darkgreen;
+	font-weight: bold;
+	border: none;
+}
+
+#moves {
+	color: darkgreen;
+	font-weight: bold;
+	border: none;
+	appearance: none;
+	width: 30px;
+}
